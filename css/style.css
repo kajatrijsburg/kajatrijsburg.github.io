@@ -1,15 +1,6 @@
-div {
-    font-family: url(http://getshreked.neocities.org/Shrek.ttf);
-}
-
 body {
   background-color: white;
-  color: black;
+  color: #142314;
   font-family: Verdana;
   background-size:cover
-}
-
-div {
-  margin: auto;
-  background-color: #73AD21;
 }
