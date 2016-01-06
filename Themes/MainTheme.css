@@ -1,0 +1,16 @@
+div {
+    font-family: url(http://getshreked.neocities.org/Shrek.ttf);
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+  background-image: url("http://i.imgur.com/o5koDbe.gif");
+  background-size:cover
+}
+
+div {
+  margin: auto;
+  background-color: #73AD21;
+}
