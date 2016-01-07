@@ -10,7 +10,7 @@ p {
 	color: #A1B5A1;
 }
 #menu {
-	margin: auto;
+	margin: 10px 10px 10px 10px;
 	display: inline;
 	background-color: #278927;
 }
@@ -22,6 +22,6 @@ p {
 }
 #post {
 	background-color: #142314;
-	margin: auto;
+	margin: 10px 10px 10px 10px;
 	text-align: left;
 }
