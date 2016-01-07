@@ -18,9 +18,9 @@ function generate_link(){
 }
 
 function get_input_from_url(url) {
-    var queryStart = url.indexOf("?") + 1,
-        queryEnd   = url.indexOf("#") + 1 || url.length + 1,
-        return url.slice(queryStart, queryEnd - 1),
+		queryStart = url.indexOf("?") + 1;
+        queryEnd   = url.indexOf("#") + 1 || url.length + 1;
+        return url.slice(queryStart, queryEnd - 1);
      
 }
 function load_rant(){
