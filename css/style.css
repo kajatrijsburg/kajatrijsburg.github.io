@@ -20,9 +20,10 @@ p {
 	text-align: left;
 	display: inline;
 	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 }
 #post {
 	background-color: #142314;
-	margin: 10px 10px 10px 10px;
+	margin: 10px 300px 10px 300px;
 	text-align: left;
 }
