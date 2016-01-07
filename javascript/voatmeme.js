@@ -25,14 +25,12 @@ function get_input_from_url(url) {
 		queryStart = url.indexOf("?") + 1;
         queryEnd   = url.indexOf("#") + 1 || url.length + 1;
         return url.slice(queryStart, queryEnd - 1);
-     
 }
+
 function load_rant(){
 	text_to_replace_id = document.getElementById("replace");
-
-	input = get_input_from_url(window.location.href);
 	
 	generate_link()
 	
-	text_to_replace_id.innerHTML = get_text(input);
+	text_to_replace_id.innerHTML = get_text(get_input_from_url(window.location.href));
 }
