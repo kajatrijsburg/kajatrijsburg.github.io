@@ -4,7 +4,7 @@ body {
   font-family: Verdana;
 }
 h1 {
-	color: #5DC45D;
+	color: #278927;
 	text-align: left;
 	
 }
@@ -15,7 +15,7 @@ p {
 #menu {
 	margin: auto;
 	display: inline;
-	background-color: #5DC45D;
+	background-color: #278927;
 }
 #menu_item {
 	color: #A1B5A1;
