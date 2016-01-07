@@ -14,7 +14,12 @@ p {
 }
 #menu {
 	margin: auto;
-	display: inline-block;
+	display: inline;
+}
+#menu_item {
+	color: #A1B5A1;
+	background-color: #142314;
+	text-align: left;
 }
 #post {
 	background-color: #142314;
