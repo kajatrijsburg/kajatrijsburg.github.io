@@ -6,7 +6,7 @@
 	<link href="/css/style.css" rel="stylesheet" type="text/css">
 	<script src="/javascript/voatmeme.js"></script>
   </head>
-  <body>
+  <body onload="load_rant()">
 	<ul id="menu">
 		<li id="menu_item"><a href="http://kajatrijsburg.github.io/">Home</a></li>
 		<li id="menu_item"><a href="http://kajatrijsburg.github.io/">Games</a></li>
@@ -17,13 +17,10 @@
 
 		<button onclick="voatmeme()">Make a Rant!</button>
 
-		<p id="replace">
-		</p>
-
-		<script>
-			
-
-		</script>
+		<p id="replace"></p>
+		
+		<p>share your rant:<p>
+		<p id="replace_link"></p>
 		<a href="https://voat.co/v/whatever/comments/773632">WTF is this crap?</a>
 	</div>
   </body>
