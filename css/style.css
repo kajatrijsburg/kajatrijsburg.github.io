@@ -10,9 +10,10 @@ p {
 	color: #A1B5A1;
 }
 #menu {
-	margin: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
 	display: inline;
 	background-color: #278927;
+	padding: 0px 0px 0px 0px;
 }
 #menu_item {
 	color: #A1B5A1;
