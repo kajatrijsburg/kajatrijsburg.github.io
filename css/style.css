@@ -5,12 +5,10 @@ body {
 }
 h1 {
 	color: #278927;
-	text-align: left;
 	
 }
 p {
 	color: #A1B5A1;
-	text-align: left;
 }
 #menu {
 	margin: auto;
@@ -26,4 +24,5 @@ p {
 #post {
 	background-color: #142314;
 	margin: auto;
+	text-align: left;
 }
