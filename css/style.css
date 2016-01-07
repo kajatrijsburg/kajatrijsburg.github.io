@@ -12,7 +12,11 @@ p {
 	color: #A1B5A1;
 	text-align: left;
 }
-div{
+#menu {
+	margin: auto;
+	display: inline-block;
+}
+#post {
 	background-color: #142314;
 	margin: auto;
 }
