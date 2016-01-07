@@ -14,7 +14,7 @@ function generate_link(){
 
 	input = input_id.value;
 	
-	text_to_replace_id.innerHTML = "http://kajatrijsburg.github.io/html/voatmeme/?" + input +"#";
+	text_to_replace_id.innerHTML = "http://kajatrijsburg.github.io/html/voatmeme?" + input +"#";
 }
 
 function parseURLParams(url) {
