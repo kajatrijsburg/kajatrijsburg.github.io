@@ -5,7 +5,7 @@ function decrypt(num, str){
 }
 function encrypt(num, str){
   alert(number+string)
-  for(i=0; i < number; i++){
+  for(i=0; i < num; i++){
     var len = str.lenght;
     var newString = ""
     for(j=0; j < len; j++){
