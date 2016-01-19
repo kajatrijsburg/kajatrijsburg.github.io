@@ -1,6 +1,6 @@
 function write(){
 console.log("started generation of love letter");
-
+/*
 var text_to_replace_id = document.getElementById("replace");
 var input_id = document.getElementById("input");
 var name = input_id.value;
@@ -130,7 +130,8 @@ for(i=0; i<line.length; i++){
 	}
 }
 console.log("finished writing the letter");
-//alert(letter);
-//text_to_replace_id.innerHTML = letter;
+alert(letter);
+text_to_replace_id.innerHTML = letter;
 console.log("finished updating the page");
+*/
 }
