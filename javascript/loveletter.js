@@ -1,4 +1,4 @@
-var write function{
+function write(){
 console.log("started generation of love letter");
 
 var text_to_replace_id = document.getElementById("replace");
@@ -42,7 +42,7 @@ line[5]=["I fantasize every day about ",
 line[6]=["running away together. ",
 	"Getting wed, having a few kids, taking some pictures, retiring to the south of France, and dying. ",
 	"experiencing a night wilder that even our wildest dreams. ",
-	"doing something fun with you. "]
+	"doing something fun with you. "];
 
 line[7]=["Oh yes, "+name+", ",
 	"Indeed my love, ",
@@ -52,7 +52,7 @@ line[7]=["Oh yes, "+name+", ",
 line[8]=["We would make the perfect couple. ",
 	"we are star-crossed lovers. ",
 	"I'll love you for ever and ever and ever and ever.",
-	"I'll never grow tired of your nagging"]
+	"I'll never grow tired of your nagging"];
 	
 line[9]=["A day without you ",
 	"Every night I can't feel you in my arms ",
@@ -82,22 +82,22 @@ line[13]=["What I admire most about you is ",
 line[14]=["that you don't even know how pretty you are. ",
 	"the simple fact that you're so sexy. ",
 	"the way you say \"Octagon.\" ",
-	"your perfectly symmetrical face. "],
+	"your perfectly symmetrical face. "];
 
 line[15]=["I can feel myself falling in love with you ",
 	"The moments when I feel in love the most are ",
 	"I just can't help loving you ",
-	"I feel like Satan himself is talking to me "],
+	"I feel like Satan himself is talking to me "];
 
 line[16]=["when you do that thing with your hair. ",
 	"every time you say my name like that. ",
 	"when the police tells me that I can't go to your neighbourhood any more. ",
-	"whenever I hear that voice in my that tells me I should take more pictures of you. "],
+	"whenever I hear that voice in my that tells me I should take more pictures of you. "];
 
 line[17]=["I promise to never ",
 	"I definitely totally wouldn't ",
 	"Nothing could tear us apart, I wouldn't ever ",
-	"Even if the gods themselves would try to separate us, I would never "]
+	"Even if the gods themselves would try to separate us, I would never "];
 	
 line[18]=["let my LoL addiction come between us.",
 	"eat all the chocolate I meant to give you. ",
@@ -123,13 +123,13 @@ line[20]=["Do you love me like I do?",
 var letter = "To: \n";
 
 for(i=0; i<line.length; i++){
-	letter = letter + line[i][Math.round(Math.random()*line[i].length)];
+	letter = letter + line[i][Math.floor(Math.random()*line[i].length)];
 	if(i%2 == 0){
-		letter = letter + "\n"
+		letter = letter + "\n";
 	}
 }
 console.log("finished writing the letter");
-//alert(letter);
+alert(letter);
 text_to_replace_id.innerHTML = letter;
 console.log("finished updating the page");
 }
