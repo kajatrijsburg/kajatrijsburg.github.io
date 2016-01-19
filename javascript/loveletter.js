@@ -132,4 +132,4 @@ console.log("finished writing the letter");
 //alert(letter);
 text_to_replace_id.innerHTML = letter;
 console.log("finished updating the page");
-} write()
+}
