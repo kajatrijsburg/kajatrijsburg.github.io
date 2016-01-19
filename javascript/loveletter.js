@@ -8,6 +8,7 @@ var name = input_id.value;
 //var name = prompt("enter the name of your love interest","right here you dummy");
 
 var line = [];
+
 line[0]=["My dearest " + name, 
 	"My greatest love " + name, 
 	"the love of my life " + name,
@@ -130,6 +131,6 @@ for(i=0; i<line.length; i++){
 }
 console.log("finished writing the letter");
 //alert(letter);
-text_to_replace_id.innerHTML = letter;
+//text_to_replace_id.innerHTML = letter;
 console.log("finished updating the page");
 }
