@@ -105,7 +105,7 @@ line[18]=["let my LoL addiction come between us.",
 	"be a bad, bad, bad kitten. ",
 	"watch netflix without you. ",
 	"lick your toes at night. ",
-	"never gonna give you up, \nnever gonna let you down, \nnever gonna run around and desert you, \nnever gonna make you cry, \nnever gonna say goodbye, \nnever gonna tell a lie and hurt you"];
+	"never gonna give you up, <br>never gonna let you down, <br>never gonna run around and desert you, <br>never gonna make you cry, <br>never gonna say goodbye, <br>never gonna tell a lie and hurt you"];
 	
 line[19]=["So I guess I wanted to know. ",
 	"I can't hold back any more, I just have to ask you... ",
@@ -120,16 +120,16 @@ line[20]=["Do you love me like I do?",
 	"Do you love me?",
 	"Do you worship the one and only god, like a true follower of the morning star?"];
 	
-var letter = "To: \n";
+var letter = "To: <br>";
 
 for(i=0; i<line.length; i++){
 	letter = letter + line[i][Math.floor(Math.random()*line[i].length)];
 	if(i%2 == 0){
-		letter = letter + "\n";
+		letter = letter + "<br>";
 	}
 }
 console.log("finished writing the letter");
-alert(letter);
+//alert(letter);
 text_to_replace_id.innerHTML = letter;
 console.log("finished updating the page");
-}
+} write()
