@@ -85,7 +85,7 @@ line[14]=["that you don't even know how pretty you are. ",
 	"your perfectly symmetrical face. "];
 
 line[15]=["I can feel myself falling in love with you ",
-	"The moments when I feel in love the most are ",
+	"The moment when I feel in love the most is ",
 	"I just can't help loving you ",
 	"I feel like Satan himself is talking to me "];
 
@@ -105,7 +105,7 @@ line[18]=["let my LoL addiction come between us.",
 	"be a bad, bad, bad kitten. ",
 	"watch netflix without you. ",
 	"lick your toes at night. ",
-	"never gonna give you up, <br>never gonna let you down, <br>never gonna run around and desert you, <br>never gonna make you cry, <br>never gonna say goodbye, <br>never gonna tell a lie and hurt you"];
+	"give you up, <br>never gonna let you down, <br>never gonna run around and desert you, <br>never gonna make you cry, <br>never gonna say goodbye, <br>never gonna tell a lie and hurt you"];
 	
 line[19]=["So I guess I wanted to know. ",
 	"I can't hold back any more, I just have to ask you... ",
