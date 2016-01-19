@@ -2,9 +2,7 @@ var write function{
 var text_to_replace_id = document.getElementById("replace");
 var input_id = document.getElementById("input");
 var name = input_id.value;
-var text_to_replace_id.innerHTML = get_letter();
 
-var get_letter function(){
 //var name = prompt("enter the name of your love interest","right here you dummy");
 
 var line = [];
@@ -129,6 +127,6 @@ for(i=0; i<line.length; i++){
 	}
 }
 
-alert(letter);
-}
+//alert(letter);
+text_to_replace_id.innerHTML = letter;
 }
