@@ -1,11 +1,11 @@
-function write(){
-console.log("started generation of love letter");
-/*
+function write_letter(){
+//console.log("started generation of love letter");
+
 var text_to_replace_id = document.getElementById("replace");
 var input_id = document.getElementById("input");
 var name = input_id.value;
 
-//var name = prompt("enter the name of your love interest","right here you dummy");
+var name = prompt("enter the name of your love interest","right here you dummy");
 
 var line = [];
 
@@ -129,9 +129,8 @@ for(i=0; i<line.length; i++){
 		letter = letter + "<br>";
 	}
 }
-console.log("finished writing the letter");
-alert(letter);
+//console.log("finished writing the letter");
+//alert(letter);
 text_to_replace_id.innerHTML = letter;
-console.log("finished updating the page");
-*/
+//console.log("finished updating the page");
 }
