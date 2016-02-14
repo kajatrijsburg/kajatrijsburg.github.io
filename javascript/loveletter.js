@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function write_letter(){
 //console.log("started generation of love letter");
 
@@ -190,17 +189,9 @@ for(i=0; i<line.length; i++){
 		letter = letter + "<br>";
 	}
 }
-<<<<<<< HEAD
-//console.log("finished writing the letter");
-//alert(letter);
-text_to_replace_id.innerHTML = letter;
-//console.log("finished updating the page");
-}
-=======
 console.log("finished writing the letter");
 //alert(letter);
 //alert(options)
 text_to_replace_id.innerHTML = letter;
 console.log("finished updating the page");
-}write();
->>>>>>> origin/master
+}
