@@ -4,13 +4,6 @@ function write_letter(){
 var text_to_replace_id = document.getElementById("replace");
 var input_id = document.getElementById("input");
 var name = input_id.value;
-=======
-function write(){
-console.log("started generation of love letter");
-//var text_to_replace_id = document.getElementById("replace");
-//var input_id = document.getElementById("input");
-//var name = input_id.value;
->>>>>>> origin/master
 
 var name = prompt("enter the name of your love interest","right here you dummy");
 
